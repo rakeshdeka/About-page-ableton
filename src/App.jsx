@@ -1,4 +1,5 @@
 import About from "./pages/About/About"
+// import Footer from "./components/Footer/Footer"
 
 function App() {
  
@@ -6,6 +7,8 @@ function App() {
   return (
     <>
       <About/>
+     
+      
 
     </>
   )

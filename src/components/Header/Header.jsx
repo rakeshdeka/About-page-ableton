@@ -1,9 +1,10 @@
 
 import logo from "../../../public/ableton-hallmark.ef5355379032.svg"
 import { IoMdArrowDropdown } from "react-icons/io";
+import { IoMdArrowDropup } from "react-icons/io";
 
 
-const Header = ({handleMenuItems}) => {
+const Header = ({handleMenuItems,showMenuItems}) => {
    
   return (
     <>
@@ -47,11 +48,12 @@ const Header = ({handleMenuItems}) => {
     </div>
     <div className="flex items-center cursor-pointer" onClick={handleMenuItems}>
         <p className="font-bold">Menu</p>
-        <IoMdArrowDropdown className="" />
+        {showMenuItems ? <IoMdArrowDropdown />: <IoMdArrowDropup/>}
+
     </div>
    
 </div>
- {/* {showMenuItems && <MenuItems/>} */}
+ 
  
     </div>
     
