@@ -89,9 +89,6 @@ const MenuItems = () => {
     </div>
     ))}
   </div>
-
-
-
       </div>
       </div>
 

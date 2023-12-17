@@ -8,7 +8,7 @@ const Header = ({handleMenuItems,showMenuItems}) => {
    
   return (
     <>
-    <div className="h-[70px] w-full border-2 border-slate-200 flex items-center">
+    <div className=" z-10 h-[70px] w-full border-2 border-slate-200 flex items-center">
       {/* desktop */}
       <div className="hidden w-full md:flex h-full justify-between items-center">
       
