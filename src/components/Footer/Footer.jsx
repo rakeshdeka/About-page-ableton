@@ -25,16 +25,16 @@ const Footer = () => {
       </div>
       </div>
       <div className="lg:-order-2  text-[.9rem] lg:w-[30%]">
-        <div className="flex items-center">
-          <p>Register Live or Push</p>
+        <div className="flex items-center cursor-pointer">
+          <p className="">Register Live or Push</p>
           <MdKeyboardArrowRight />
           </div>
-          <div className="flex items-center">
-             <p>About Ableton</p>
+          <div className="flex items-center cursor-pointer">
+             <p className=" ">About Ableton</p>
              <MdKeyboardArrowRight />
           </div>
-          <div className="flex items-center">
-             <p>Jobs</p>
+          <div className="flex items-center cursor-pointer">
+             <p className=" ">Jobs</p>
              <MdKeyboardArrowRight />
           </div>
        
@@ -55,15 +55,15 @@ const Footer = () => {
    </div>
       <div className=" lg:-order-1">
         <h2 className="font-semibold">Education</h2>
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
           <p>Offers for students and teachers</p>
           <MdKeyboardArrowRight />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
           <p>Ableton for the Classroom</p>
           <MdKeyboardArrowRight />
         </div>
-        <div  className="flex items-center">
+        <div  className="flex items-center cursor-pointer">
            <p>Ableton for Colleges and Universities</p>
           <MdKeyboardArrowRight />
         </div>
@@ -73,15 +73,15 @@ const Footer = () => {
       </div>
       <div className="lg:w-[30%]">
         <h2 className="font-semibold">Community</h2>
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
            <p>Find Ableton User Groups</p>
           <MdKeyboardArrowRight />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
             <p>Find Certified Training</p>
           <MdKeyboardArrowRight />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
            <p>Become a Certified Trainer</p>
           <MdKeyboardArrowRight />
         </div>
@@ -114,11 +114,11 @@ const Footer = () => {
 
       <div className="flex lg:justify-evenly w-full text-[.7rem] flex-col lg:flex-row gap-4">
       <div className="  font-semibold flex justify-start lg:w-[50%] lg:gap-2 flex-col lg:flex-row lg:items-center">
-        <p>Contact Us</p>
-        <p>Press Resources</p>
-        <p>Legal Info</p>
-        <p>Privacy</p>
-        <p>Cookie Settings</p>
+        <p className="cursor-pointer">Contact Us</p>
+        <p className="cursor-pointer">Press Resources</p>
+        <p className="cursor-pointer">Legal Info</p>
+        <p className="cursor-pointer">Privacy</p>
+        <p className="cursor-pointer">Cookie Settings</p>
         <p>Imprint</p>
       </div>
       <div className="flex gap-3  lg:justify-end lg:w-[50%] lg:items-center">
